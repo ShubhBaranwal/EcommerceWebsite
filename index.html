@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>www.indiawalesir.com</title>
+  <link rel="stylesheet" href="style/bootstrap.css">
+  <link rel="stylesheet" href="style/index.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+  
+    <div class=" nav-row">
+      <div
+        class="logo-nav">
+        <img src="images/Dr-Martens-Logo-Shoe-Brands.png.webp" alt="" >
+      </div>
+      <div class=" search-container">
+        <input type="text  " class=""
+          placeholder="Search Your Shoes" id="searchBar">
+      </div>
+      <div
+        class=" cart-container">
+
+        <!-- <img src="download.png" alt="" class="nav-icon"> -->
+        <a href="bag.html">
+       
+          <img src="images/icons8-cart-100.png" alt=""  >
+        <span class="bag-item-count">0</span>
+        </a>
+
+
+      </div>
+
+    </div>
+  
+
+
+  <!-- <a href="bag.html">
+       
+    <img src="icons8-cart-100.png" alt="" class="nav-icon" >
+  <span class="bag-item-count">0</span>
+  </a> -->
+
+  <div class="container-fluid banner-container ">
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="bannerimg/1.JPG" alt="Los Angeles" style="width:100%;">
+        </div>
+
+        <div class="item">
+          <img src="bannerimg/2.JPG" alt="Chicago" style="width:100%;">
+        </div>
+
+        <div class="item">
+          <img src="bannerimg/3.JPG" alt="New york" style="width:100%;">
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row d-flex mx-auto">
+      <div class="col-xl-8 col-md-8
+    col-sm-12 col-12
+    filter-container mx-auto d-flex justify-content-around fw-bold">
+        <button class="category-filter text-center " data-category="all"><img src="category image/mencat.png"
+            class="d-block w-100" alt="">All</button>
+        <button class="category-filter text-center" data-category="Men's"><img src="category image/mencat.png"
+            class="d-block w-100" alt="">MEN'S</button>
+        <button class="category-filter text-center" data-category="Women's"><img src="category image/womencat.png"
+            class="d-block w-100" alt="">WOMEN'S</button>
+        <button class="category-filter text-center" data-category="Sport's"><img src="category image/sportcat.png"
+            class="d-block w-100" alt="">SPORT'S</button>
+        <button class="category-filter text-center" data-category="Kid's"><img src="category image/kidscat.png"
+            class="d-block w-100" alt="">KID'S</button>
+      </div>
+
+
+
+    </div>
+  </div>
+
+  
+
+  <div class="main-container d-flex mt-5">
+    <div class="sidebar mt-5" id="side_nav" >
+      <div class="header-box px-2 pt-3 pb-4 d-flex justify-content-between">
+        <h1 class="fs-4"><span class="bg-white text-dark rounded shadow px-2 me-2">OPEN</span> <span
+            class="text-white">Coding League</span></h1>
+        <button class="btn d-md-none d-block close-btn text-break px-1 py-0"><i
+            class="fal fa-stream "></i>close</button>
+      </div>
+
+      <ul class="list-unstyled px-2" >
+        <li class="active"><a href="#" class="text-decoration-none px-3 py-2 d-block"><i class="fal fa-home"></i>
+            Filter:Shoes <br> 250 Shoes</a>
+
+        </li>
+        <li class="">
+          <h4 href="#" class="text-white px-3 py-2 d-block bg-danger">
+            Filter by Types:</h4>
+          <div class="filter-container-checkbox">
+            <label for="Boots"> Boots <input type="checkbox" class="feature-filter" data-type="Boots" id="Boots"
+                class=""></label>
+            <label for="NikeDunk">NikeDunk<input type="checkbox" id="NikeDunk" class="feature-filter"
+                data-type="NikeDunk"> </label>
+            <label for="Pegasus">Pegasus <input type="checkbox" id="Pegasus" class="feature-filter"
+                data-type="Pegasus"></label>
+            <label for="Loafer"> Loafer<input type="checkbox" id="Loafer" class="feature-filter"
+                data-type="Loafer"></label>
+            <label for="ZoomRival">ZoomRival<input type="checkbox" id="ZoomRival" class="feature-filter"
+                data-type="ZoomRival"></label>
+            <label for="AirMax">AirMax<input type="checkbox" id="AirMax" class="feature-filter"
+                data-type="AirMax"></label>
+            <label for="AirForce">AirForce <input type="checkbox" id="AirForce" class="feature-filter"
+                data-type="AirForce"></label>
+
+          </div>
+
+
+
+        </li>
+        
+        
+        <li class="">
+          <h4 href="#" class="text-white px-3 py-2 d-block bg-danger">
+            Filter by Tags:</h4>
+          <div class="filter-container-checkbox-two">
+            <label for="SustainableMaterials"> SustainableMaterials <input type="checkbox" class="tag-filter" data-type="SustainableMaterials" id="SustainableMaterials"
+                class=""></label>
+            <label for="PromoExclusion">PromoExclusion<input type="checkbox" id="PromoExclusion" class="tag-filter"
+                data-type="PromoExclusion"> </label>
+            <label for="InJust">InJust <input type="checkbox" id="InJust" class="tag-filter"
+                data-type="InJust"></label>
+            
+
+          </div>
+
+
+
+        </li>
+        <li class="">
+          <h4 href="#" class="text-white px-3 py-2 d-block bg-danger">
+            Filter by Sizes:</h4>
+          <div class="filter-container-checkbox-Size">
+            <label for="6"> 6 <input type="checkbox" class="size-filter" data-type="6" id="6"
+                class=""></label>
+            <label for="7">7<input type="checkbox" id="7" class="size-filter"
+                data-type="7"> </label>
+            <label for="8">8 <input type="checkbox" id="8" class="size-filter"
+                data-type="8"></label>
+            
+            <label for="9">9 <input type="checkbox" id="9" class="size-filter"
+                data-type="9"></label>
+            
+            <label for="10">10 <input type="checkbox" id="10" class="size-filter"
+                data-type="10"></label>
+            
+            <label for="11.5">11.5 <input type="checkbox" id="11.5" class="size-filter"
+                data-type="11.5"></label>
+            
+
+          </div>
+
+
+
+        </li>
+        <li class="">
+          <h4 href="#" class="text-white px-3 py-2 d-block bg-danger">
+            Filter by Colors:</h4>
+          <div class="filter-container-checkbox-Color">
+              
+              
+           
+           <label style="background-color: red;" class="color-filter-container" ><input type="checkbox" class="color-filter" data-type="red"></label>
+           <label style="background-color: green;" class="color-filter-container" ><input type="checkbox" class="color-filter" data-type="green"></label>
+           <label style="background-color: grey;" class="color-filter-container" ><input type="checkbox" class="color-filter" data-type="grey"></label>
+           <label style="background-color: brown;" class="color-filter-container" ><input type="checkbox" class="color-filter" data-type="brown"></label>
+           <label style="background-color: #f76490;" class="color-filter-container" ><input type="checkbox" class="color-filter" data-type="#f76490"></label>
+           <label style="background-color: #B5651D;" class="color-filter-container" ><input type="checkbox" class="color-filter" data-type="#B5651D"></label>
+           <label style="background-color: black;" class="color-filter-container" ><input type="checkbox" class="color-filter" data-type="black"></label>
+           <label style="background-color: #E75480;" class="color-filter-container" ><input type="checkbox" class="color-filter" data-type="#E75480"></label>
+           <label style="background-color: purple;" class="color-filter-container" ><input type="checkbox" class="color-filter" data-type="purple"></label>
+           <label style="background-color: orange;" class="color-filter-container" ><input type="checkbox" class="color-filter" data-type="orange"></label>
+           <label style="background-color: blue;" class="color-filter-container" ><input type="checkbox" class="color-filter" data-type="blue"></label>
+           
+          </div>
+              
+            
+
+          </div>
+
+
+
+        </li>
+        
+        
+
+      </ul>
+
+
+      <div class="content">
+        <nav class="navbar navbar-expand-md navbar-light bg-danger">
+          <div class="container-fluid">
+            <div class="d-flex justify-content-between d-md-none d-block">
+              <button class="btn px-1 py-0 open-btn me-2"><i class="fal fa-stream"></i>Filter</button>
+              <a class="navbar-brand fs-4" href="#"><span class="bg-dark rounded px-2 py-0 text-white">CL</span></a>
+  
+            </div>
+            <button class="navbar-toggler p-0 border-0" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <i class="fal fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Profile</a>
+                </li>
+  
+              </ul>
+  
+            </div>
+          </div>
+        </nav>
+  
+        <div class="dashboard-content  pt-4 ">
+          <div class="row" id="itemsContainer">
+  
+            <!-- <div class="col-xl-2 col-md-4  col-sm-4 text-xl-center text-md-center text-sm-center text-center">
+                <img src="img/Nike Air Force 1 Mid QS.webp" alt="" class="img-fluid">
+                <p class="text-danger "><span class="">Sustainable Materials</span><br><span class=" fw-bold">Women's</span></p>
+                <h4 class="fw-bolder ">Aldo Girl's Keesha Boots</h4>
+                <h5 class="">Boots</h5>
+                <p class=""><span class="text-decoration-line-through text-primary"> $1290</span><span class="fw-bold disable-5"> Price : $15,01 </span> </p>
+                <p style="background-color: red; width: 40px; height: 40px; border-radius: 100%;  border: 2px solid black; margin: auto;"></p>
+              </div> -->
+  
+          </div>
+  
+  
+  
+  
+  
+        </div>
+      
+    </div>
+    
+    </div>
+  </div>
+
+
+  <div class="footer bg-dark mt-5 mb-5 text-sm-center">
+    <div class="row  text-light w-100 justify-content-evenly align-content-center mt-4 mb-4">
+<div class="col-xl-2 col-md-2 col-sm-5 col-10">
+ <h3> Get to Know Us</h3>
+  <p>About Us</p>
+  <p>Careers</p>
+  <p> Releases</p>
+  <p>Amazon Science</p>
+  
+</div>
+<div class="col-xl-2 col-md-2 col-sm-5 col-10">
+<h3>  Connect with Us</h3>
+  <p>Facebook</p>
+  <p>Twitter</p>
+  <p>Instagram</p>
+  
+  
+</div>
+<div class="col-xl-2 col-md-2 col-sm-5 col-10 ">
+	
+  <h3>Make Money with Us</h3>
+ <p> Sell on Amazon</p>
+  <p>Sell under Amazon Accelerator</p>
+  <p>Protect and Build Your Brand</p>
+  <p>Amazon Global Selling</p>
+  <p>Become an Affiliate</p>
+  <p>Fulfilment by Amazon</p>
+  <p>Advertise Your Products</p>
+  <p>Amazon Pay on Merchants</p>  
+</div>
+<div class="col-xl-2 col-md-2 col-sm-5 col-10">
+ 	
+<h3>Let Us Help You</h3>
+<p>COVID-19 and Amazon</p>
+<p>Your Account</p>
+<p>Returns Centre</p>
+<p>100% Purchase Protection</p>
+<p>Amazon App Download</p>
+<p>Help</p>
+  
+</div>
+    </div>
+  </div>
+  
+
+  <script src="script/index.js"></script>
+</body>
+
+</html>
